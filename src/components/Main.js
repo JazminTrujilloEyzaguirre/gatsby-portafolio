@@ -1,8 +1,9 @@
 import PropTypes from 'prop-types'
 import React from 'react'
 import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
 import pic03 from '../images/pic03.jpg'
+import Cards from './cards'
+import mainStyle from './main.module.scss'
 
 class Main extends React.Component {
   render() {
@@ -28,29 +29,23 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Intro</h2>
+          <h2 className="major">Sobre mi</h2>
           <span className="image main">
             <img src={pic01} alt="" />
           </span>
           <p>
-            Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
-            aliquam facilisis ante interdum congue. Integer mollis, nisl amet
-            convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
-            magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
+          Me considero una persona organizada, puntual y respetuosa. 
+          En cuanto al trabajo en equipo me s iento bastante cómoda, 
+          tengo la habilidad de adaptarme fácilmente a la necesidad que 
+          se requiera. Igualmente puedo trabajar administrando mi tiempo y 
+          sin supervisión. Me encanta aprender cosas nuevas y mejorar las habilidades que ya poseo. 
+          Tengo ansias de aplicar los conocimientos que he adquirido hasta ahora.
           </p>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
+          Este sitio web, es mi portafolio. En el encontraras información sobre mi, y como contactarte conmigo. 
+          Además en la sección "Proyectos" encontraras algunos trabajos donde demuestro el uso de varias tecnologías. 
+          Por ultimo en el apartado "Blog" podrás encontrar Posts sobre Programación y "paso a paso" de algún proyecto. 
+          Have Fun!
           </p>
           {close}
         </article>
@@ -62,26 +57,12 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <h2 className="major">Poryectos</h2>
           {close}
+          {/* CARDS */}
+          <Cards> </Cards>
+          {/* CARDS */}
+          
         </article>
 
         <article
@@ -91,7 +72,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Blog</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
@@ -104,6 +85,10 @@ class Main extends React.Component {
             Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
             amet.
           </p>
+          <br/>
+          <div className={mainStyle.boton}>
+              <a href="https://jolly-torvalds-569eff.netlify.app/"> Visitar</a>
+          </div>
           {close}
         </article>
 
@@ -139,26 +124,19 @@ class Main extends React.Component {
           </form>
           <ul className="icons">
             <li>
-              <a
-                href="https://twitter.com/HuntaroSan"
-                className="icon fa-twitter"
+              <a href="https://www.linkedin.com/in/jazm%C3%ADn-jahaziel-trujillo-a4380919a/"
+                className="icon fa-linkedin"
               >
-                <span className="label">Twitter</span>
+                <span className="label">Linkein</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
-                <span className="label">Facebook</span>
+              <a href="https://t.me/parsiomnium" className="icon fa-telegram">
+                <span className="label">Telegrm</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
-                <span className="label">Instagram</span>
-              </a>
-            </li>
-            <li>
-              <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+              <a href="https://github.com/JazminTrujilloEyzaguirre"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>

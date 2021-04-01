@@ -4,17 +4,16 @@ import React from 'react'
 const Header = props => (
   <header id="header" style={props.timeout ? { display: 'none' } : {}}>
     <div className="logo">
-      <span className="icon fa-diamond"></span>
+      <span className="icon fa-low-vision"></span>
     </div>
     <div className="content">
       <div className="inner">
-        <h1>Dimension</h1>
+        <h1>FullStack Developer</h1>
         <p>
-          A fully responsive site template designed by{' '}
-          <a href="https://html5up.net">HTML5 UP</a> and released
+          Hola! Soy Jazmin, programadora Full-Stack-MERN viviendo en Viña del Mar, Chile. 
           <br />
-          for free under the{' '}
-          <a href="https://html5up.net/license">Creative Commons</a> license.
+          Descarga mi CV {' '}
+          <a href="https://drive.google.com/file/d/1L5iSeLKAY0LUeRQJ8n5PHyoJ1lyfTPBy/view">Aquí.</a> 
         </p>
       </div>
     </div>
@@ -26,7 +25,7 @@ const Header = props => (
               props.onOpenArticle('intro')
             }}
           >
-            Intro
+            Sobre Mi
           </button>
         </li>
         <li>
@@ -35,7 +34,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Proyectos
           </button>
         </li>
         <li>
@@ -44,7 +43,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Blog
           </button>
         </li>
         <li>
@@ -53,7 +52,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Contacto
           </button>
         </li>
       </ul>
