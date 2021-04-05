@@ -13,13 +13,13 @@ const Cards = () => (
                 <img src={picp01} alt="" />
               </span>
               <p >
-                Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-                at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-                urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                sollicitudin mauris nec lorem luctus ultrices.
+              En esta aplicación web, realizada con el stack MERN para unificar front-end y back-end. 
+              Puedes obtener una cuenta nueva para ingresar por primera vez, una vez dentro puedes agregar 
+              proyectos y a estos, a su vez puedes agregar tareas, las que puedes editar y cambiar 
+              su estado de incompleto a completo. 
               </p>
               <div className={mainStyle.boton}>
-                <a href="#"> Visitar</a>
+                <a href="https://competent-wright-a9c47d.netlify.app/"> Visitar</a>
               </div>
               <br/>
         </div>
