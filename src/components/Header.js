@@ -8,9 +8,9 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>FullStack Developer</h1>
+        <h1>Front-End Developer</h1>
         <p>
-          Hola! Soy Jazmin, programadora Full-Stack-MERN viviendo en Viña del Mar, Chile. 
+          Hola! Soy Jazmin, programadora Front-end viviendo en Viña del Mar, Chile. 
           <br />
           Descarga mi CV {' '}
           <a href="https://drive.google.com/file/d/1L5iSeLKAY0LUeRQJ8n5PHyoJ1lyfTPBy/view">Aquí.</a> 
@@ -35,15 +35,6 @@ const Header = props => (
             }}
           >
             Proyectos
-          </button>
-        </li>
-        <li>
-          <button
-            onClick={() => {
-              props.onOpenArticle('about')
-            }}
-          >
-            Blog
           </button>
         </li>
         <li>

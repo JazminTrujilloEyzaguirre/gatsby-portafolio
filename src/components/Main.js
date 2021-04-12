@@ -35,17 +35,15 @@ class Main extends React.Component {
           </span>
           <p>
           Me considero una persona organizada, puntual y respetuosa. 
-          En cuanto al trabajo en equipo me s iento bastante cómoda, 
+          En cuanto al trabajo en equipo me siento bastante cómoda, 
           tengo la habilidad de adaptarme fácilmente a la necesidad que 
           se requiera. Igualmente puedo trabajar administrando mi tiempo y 
           sin supervisión. Me encanta aprender cosas nuevas y mejorar las habilidades que ya poseo. 
           Tengo ansias de aplicar los conocimientos que he adquirido hasta ahora.
           </p>
+          <br/>
           <p>
-          Este sitio web, es mi portafolio. En el encontraras información sobre mi, y como contactarte conmigo. 
-          Además en la sección "Proyectos" encontraras algunos trabajos donde demuestro el uso de varias tecnologías. 
-          Por ultimo en el apartado "Blog" podrás encontrar Posts sobre Programación y "paso a paso" de algún proyecto. 
-          Have Fun!
+            En mi tiempo libre suelo hace deporte, me gusta caminar, y descubrir musica nueva. Leo de todo y amo la tecnología y sus posibilidades. 
           </p>
           {close}
         </article>
@@ -100,28 +98,8 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Contact</h2>
-          <form method="post" action="#">
-            <div className="field half first">
-              <label htmlFor="name">Name</label>
-              <input type="text" name="name" id="name" />
-            </div>
-            <div className="field half">
-              <label htmlFor="email">Email</label>
-              <input type="text" name="email" id="email" />
-            </div>
-            <div className="field">
-              <label htmlFor="message">Message</label>
-              <textarea name="message" id="message" rows="4"></textarea>
-            </div>
-            <ul className="actions">
-              <li>
-                <input type="submit" value="Send Message" className="special" />
-              </li>
-              <li>
-                <input type="reset" value="Reset" />
-              </li>
-            </ul>
-          </form>
+          <p>Si quieres mas informacion enviame un mensaje directo por telegram, tambien puedes ver mis repositorios en github o checkear mi perfil en linkedin. ¡Que tengas un lindo día! </p>
+          <br/>
           <ul className="icons">
             <li>
               <a href="https://www.linkedin.com/in/jazm%C3%ADn-jahaziel-trujillo-a4380919a/"

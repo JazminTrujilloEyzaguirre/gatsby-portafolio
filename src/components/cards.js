@@ -30,10 +30,8 @@ const Cards = () => (
                 <img src={picp02} alt="" />
               </span>
               <p >
-                Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-                at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-                urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                sollicitudin mauris nec lorem luctus ultrices.
+                En este sitio web podras elegir una fecha del calendario y comenzar una cuenta regresiva, asi podras saber exactamente cuantos dias, horas, minutos y segundos faltan para el día elegido. 
+                Esta hecho con HTML - CSS -JAVASCRIPT
               </p>
               <div className={mainStyle.boton}>
                 <a href="https://quirky-sammet-e45926.netlify.app/"> Visitar</a>
@@ -47,10 +45,7 @@ const Cards = () => (
                 <img src={picp03} alt="" />
               </span>
               <p >
-                Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-                at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-                urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                sollicitudin mauris nec lorem luctus ultrices.
+                En esta landing-page podras ver una animación con CSS Y JAVASCRIPT y además acceder a una de mis playlist favoritas para escribir código c:
               </p>
               <div className={mainStyle.boton}>
                 <a href="https://admiring-mestorf-210091.netlify.app/"> Visitar</a>
@@ -64,13 +59,10 @@ const Cards = () => (
                 <img src={picp04} alt="" />
               </span>
               <p >
-                Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-                at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-                urna nisi, fringila lorem et vehicula lacinia quam. Integer
-                sollicitudin mauris nec lorem luctus ultrices.
+                En este sitio web se consume una API publica de github para consultar perfiles de usuarios activos. Esta hecha con HTML - CSS - JAVASCRIPT.
               </p>
               <div className={mainStyle.boton}>
-                <a href="#"> Visitar</a>
+                <a href="https://practical-bhabha-97cd36.netlify.app/"> Visitar</a>
               </div>
               <br/>
         </div>
